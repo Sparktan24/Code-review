@@ -1,17 +1,19 @@
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+  body {
+    background-color: lightblue;
   }
+}
 
-  @media only screen and (min-width: 601px) {
+@media only screen and (min-width: 601px) {
   body {
     background-image: url(https://static.vecteezy.com/system/resources/previews/005/489/284/original/beautiful-purple-color-gradient-background-free-vector.jpg);
-    }
-    h1 {
-      color: rgb(255, 255, 255);
-    }
   }
+
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+}
+
 #catgithub {
   width: 150px;
   height: 150px;
@@ -25,11 +27,12 @@ h1 {
   font-family: monospace;
   font-size: 40px;
 }
-a{
+
+a {
   color: white;
 }
 
-#microverse{
+#microverse {
   height: 600px;
   width: 800px;
   display: block;
